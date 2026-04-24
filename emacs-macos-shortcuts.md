@@ -8,7 +8,7 @@ A comprehensive guide to moving between Emacs-style and native macOS keyboard sh
 
 Move the cursor by character, word, line, and document.
 
-| Movement | Direction | Emacs | macOS Native |
+| Movement | Direction | Emacs-ish | macOS Native |
 |----------|-----------|-------|--------------|
 | **Character** | Left | `⌃B` | `←` |
 | | Right | `⌃F` | `→` |
@@ -27,7 +27,7 @@ Move the cursor by character, word, line, and document.
 
 Extend selection by character, word, line, and paragraph.
 
-| Selection | Direction | Emacs | macOS Native |
+| Selection | Direction | Emacs-ish | macOS Native |
 |-----------|-----------|-------|--------------|
 | **Character** | Left | `⌃⇧B` | `⇧←` |
 | | Right | `⌃⇧F` | `⇧→` |
@@ -44,7 +44,7 @@ Extend selection by character, word, line, and paragraph.
 
 Remove characters, words, and lines.
 
-| Deletion | Direction | Emacs | macOS Native |
+| Deletion | Direction | Emacs-ish | macOS Native |
 |----------|-----------|-------|--------------|
 | **Character** | Left (backspace) | `⌃H` | `⌫` |
 | | Right (delete) | `⌃D` | `⌦` |
@@ -59,7 +59,7 @@ Remove characters, words, and lines.
 
 Find text and navigate between search results.
 
-| Action | Emacs | macOS Native |
+| Action | Emacs-ish | macOS Native |
 |--------|-------|--------------|
 | **First result** | — | `⌘F` |
 | **Next result** | — | `⌘G` |
@@ -71,7 +71,7 @@ Find text and navigate between search results.
 
 Move and recenter the viewport.
 
-| Action | Emacs | macOS Native |
+| Action | Emacs-ish | macOS Native |
 |--------|-------|--------------|
 | **Page up** | — | `Fn+↑` |
 | **Page down** | `⌃V` | `Fn+↓` |
@@ -83,7 +83,7 @@ Move and recenter the viewport.
 
 Other insertion, editing, and kill ring commands.
 
-| Command | Action | Emacs | macOS Native |
+| Command | Action | Emacs-ish | macOS Native |
 |---------|--------|-------|--------------|
 | **Character** | Transpose | `⌃T` | — |
 | **Line** | Insert | `⌃O` | — |
@@ -109,5 +109,7 @@ Other insertion, editing, and kill ring commands.
 ## Tips
 
 - **Emacs users on macOS**: Many macOS text fields support Emacs keybindings natively.
-- **macOS users learning Emacs**: Start with the most common shortcuts (cursor movement and selection).
 - **Mixed usage**: You can often use both styles interchangeably in modern text editors and terminals.
+
+## Reference
+This is based off of [Jason Blevins' (Emacs) Keyboard Shortcuts for Editing Text Fields in OS X](https://jblevins.org/log/kbd
