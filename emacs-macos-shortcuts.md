@@ -112,4 +112,4 @@ Other insertion, editing, and kill ring commands.
 - **Mixed usage**: You can often use both styles interchangeably in modern text editors and terminals.
 
 ## Reference
-This is based off of [Jason Blevins' (Emacs) Keyboard Shortcuts for Editing Text Fields in OS X](https://jblevins.org/log/kbd
+This is based off of [Jason Blevins' (Emacs) Keyboard Shortcuts for Editing Text Fields in OS X](https://jblevins.org/log/kbd)
